@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import '@fortawesome/fontawesome-free/css/all.css';
-import logo from './logo.svg';
 import img from './undercover.png';
 import './App.scss';
 import './RandomText.scss';
@@ -38,7 +37,7 @@ class App extends Component {
       showLetters: !this.state.showLetters
     })
   }
-  
+
 
   render() {
     return (
