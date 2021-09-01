@@ -81,18 +81,19 @@
 ### Шаг 5: Протестировать опубликованную модель
 Вы можете протестировать развернутую модель на странице сведений о развертывании ** тремя ** способами:
 
-### Тестирование с формой
+### a) Тестирование с JSON
+На вкладке «Тест» (Test tab) страницы сведений о развертывании щелкните значок «Предоставить входные данные в формате JSON» (Provide input data as JSON ) и введите следующие данные с нашими четырьмя сайтами:
+
+```{"input_data":[{"fields": ["duration", "protocol_type", "service", "flag", "src_bytes", "dst_bytes", "land", "wrong_fragment", "urgent", "hot", "num_failed_logins", "logged_in", "num_compromised", "root_shell", "su_attempted", "num_root", "num_file_creations", "num_shells", "num_access_files", "num_outbound_cmds", "is_host_login", "is_guest_login", "count", "srv_count", "serror_rate", "srv_serror_rate", "rerror_rate", "srv_rerror_rate", "same_srv_rate", "diff_srv_rate", "srv_diff_host_rate", "dst_host_count", "dst_host_srv_count", "dst_host_same_srv_rate", "dst_host_diff_srv_rate", "dst_host_same_src_port_rate", "dst_host_srv_diff_host_rate", "dst_host_serror_rate", "dst_host_srv_serror_rate", "dst_host_rerror_rate", "dst_host_srv_rerror_rate"], "values":[ [0,"tcp","http","SF",233,2239,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,1,0,0,255,197,0.77,0.02,0,0,0,0,0,0], [31,"tcp","telnet","SF",197,1608,0,0,0,1,0,1,1,0,0,1,2,1,0,0,0,0,1,1,0,0,0,0,1,0,0,248,32,0.13,0.03,0,0,0,0,0,0], [0,"tcp","systat","S0",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,239,20,1,1,0,0,0.08,0.07,0,255,20,0.08,0.08,0,0,1,1,0,0], [0,"tcp","http","SF",277,4968,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,13,13,0,0,0,0,1,0,0,13,255,1,0,0.08,0.01,0,0,0,0] ]}]}```
+
+### b) Тестирование с формой
 На вкладке «Тест» (Test tab) страницы сведений о развертывании щелкните значок «Предоставить входные данные с помощью формы» (Provide input data using form), введите данные теста и нажмите «Прогнозировать» (Predict), чтобы увидеть результат.
 
 ![autoai-test-with-form.png](https://github.com/vperrinfr/network_intrusion/blob/master/images/autoai-test-with-form.png)
 
-### Тестирование с JSON
-На вкладке «Тест» (Test tab) страницы сведений о развертывании щелкните значок «Предоставить входные данные в формате JSON» (Provide input data as JSON ) и введите следующие тестовые данные:
 
-```{"input_data":[{"fields": ["duration", "protocol_type", "service", "flag", "src_bytes", "dst_bytes", "land", "wrong_fragment", "urgent", "hot", "num_failed_logins", "logged_in", "num_compromised", "root_shell", "su_attempted", "num_root", "num_file_creations", "num_shells", "num_access_files", "num_outbound_cmds", "is_host_login", "is_guest_login", "count", "srv_count", "serror_rate", "srv_serror_rate", "rerror_rate", "srv_rerror_rate", "same_srv_rate", "diff_srv_rate", "srv_diff_host_rate", "dst_host_count", "dst_host_srv_count", "dst_host_same_srv_rate", "dst_host_diff_srv_rate", "dst_host_same_src_port_rate", "dst_host_srv_diff_host_rate", "dst_host_serror_rate", "dst_host_srv_serror_rate", "dst_host_rerror_rate", "dst_host_srv_rerror_rate"], "values":[ [0,"tcp","http","SF",233,2239,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,1,0,0,255,197,0.77,0.02,0,0,0,0,0,0], [31,"tcp","telnet","SF",197,1608,0,0,0,1,0,1,1,0,0,1,2,1,0,0,0,0,1,1,0,0,0,0,1,0,0,248,32,0.13,0.03,0,0,0,0,0,0], [0,"tcp","systat","S0",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,239,20,1,1,0,0,0.08,0.07,0,255,20,0.08,0.08,0,0,1,1,0,0], [0,"tcp","http","SF",277,4968,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,13,13,0,0,0,0,1,0,0,13,255,1,0,0.08,0.01,0,0,0,0] ]}]}```
+### c)Тестирование с Jupyter Notebook
 
-### Тестирование с Jupyter Notebook
-
-Вы можете легко вызвать развернутую модель через Jupyter Notebook.
+Также вы можете вызвать модель через Jupyter Notebook.
 
 ![notebook.png](https://github.com/vperrinfr/network_intrusion/blob/master/images/notebook.png)
