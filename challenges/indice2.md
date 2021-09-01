@@ -71,12 +71,13 @@
 ![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_7.png)
 
 * 3.4 Запустите обучение модели
-Нажмите Запустить эксперимент (Run experiment). По мере обучения модели вы увидите инфографику, показывающую процесс построения конвейера (пайплайна).
+Нажмите Запустить эксперимент (Run experiment). 
 ![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_8.png)
 
 Список алгоритмов или оценок, доступных для каждого метода машинного обучения в AutoAI, см.: 
 [Детали внедрения AutoAI](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-details.html?audience=wdp)
 
+По мере обучения модели вы увидите инфографику, показывающую процесс построения конвейера (пайплайна).
 ![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_9.png)
 
 ![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_13.png)
@@ -130,6 +131,7 @@
 На вкладке «Тест» (Test tab) страницы сведений о развертывании щелкните значок «Предоставить входные данные в формате JSON» (Provide input data as JSON ) и введите следующие данные с нашими четырьмя сайтами:
 
 ```{"input_data":[{"fields": ["duration", "protocol_type", "service", "flag", "src_bytes", "dst_bytes", "land", "wrong_fragment", "urgent", "hot", "num_failed_logins", "logged_in", "num_compromised", "root_shell", "su_attempted", "num_root", "num_file_creations", "num_shells", "num_access_files", "num_outbound_cmds", "is_host_login", "is_guest_login", "count", "srv_count", "serror_rate", "srv_serror_rate", "rerror_rate", "srv_rerror_rate", "same_srv_rate", "diff_srv_rate", "srv_diff_host_rate", "dst_host_count", "dst_host_srv_count", "dst_host_same_srv_rate", "dst_host_diff_srv_rate", "dst_host_same_src_port_rate", "dst_host_srv_diff_host_rate", "dst_host_serror_rate", "dst_host_srv_serror_rate", "dst_host_rerror_rate", "dst_host_srv_rerror_rate"], "values":[ [0,"tcp","http","SF",233,2239,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,1,0,0,255,197,0.77,0.02,0,0,0,0,0,0], [31,"tcp","telnet","SF",197,1608,0,0,0,1,0,1,1,0,0,1,2,1,0,0,0,0,1,1,0,0,0,0,1,0,0,248,32,0.13,0.03,0,0,0,0,0,0], [0,"tcp","systat","S0",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,239,20,1,1,0,0,0.08,0.07,0,255,20,0.08,0.08,0,0,1,1,0,0], [0,"tcp","http","SF",277,4968,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,13,13,0,0,0,0,1,0,0,13,255,1,0,0.08,0.01,0,0,0,0] ]}]}```
+
 ![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/deploy_model_9.png)
 
 
