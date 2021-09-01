@@ -136,7 +136,7 @@
 
 
 
-### c)Тестирование с Jupyter Notebook
+### c)Тестирование с Jupyter Notebook (опционально)
 
 Также вы можете вызвать модель через Jupyter Notebook.
 
