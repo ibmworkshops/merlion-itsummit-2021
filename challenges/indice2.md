@@ -36,8 +36,14 @@
 2.1. Сохраните на локальный диск файл с обучающей выборкой: https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/challenges/data/Train_data.csv
 
 2.2. В созданном проекте Watson Studio для загрузки данных можно воспользоваться кнопкой "Add to project" ("Добавить в проект"), выбрать тип "Данные" и указать сохраненный файл.
+![Create project](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/ws_project_assets.png)
 
 2.3. Найдите данные в списке активов проекта ("assets"). При желании Вы можете просмотреть содержимое таблицы и сделать её профилирование (закладка Профиль / Создать профиль). 
+![Assets](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/ws_project_assets_table.png)
+
+![Assets](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/ws_project_assets_rows.png)
+
+![Assets](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/ws_project_assets_profile.png)
 
 
 ### Шаг 3: Построить и обучить модель
