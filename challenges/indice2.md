@@ -28,6 +28,10 @@
 Это можно сделать из основной страницы посредством нажатия кнопки "Создать проект". Или же использовать эту же кнопку из общего списка проектов ("Просмотреть все проекты"). Нам достаточно создание "пустого" проекта.
 ![Create project](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/create_ws_project.png)
 
+![Create project](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/create_ws_project_blank.png)
+
+![Create project](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/create_ws_project_create.png)
+
 ### Шаг 2: Загрузить данные с обучающей выборкой
 2.1. Сохраните на локальный диск файл с обучающей выборкой: https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/challenges/data/Train_data.csv
 
