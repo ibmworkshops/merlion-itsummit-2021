@@ -5,7 +5,7 @@
 
 1. Подключиться к IBM Cloud с собственным логином. Если Вы еще не зарегистрированы в IBM Cloud, то пройдите несложный процесс регистрации: https://cloud.ibm.com/registration. Обратите внимание, что могут возникнуть сложности с использованием публичных российских адресов типа mail.ru, inbox.ru. Как вариант, рекомендуем использовать электронную почту gmail.com. Такой логин точно сработает.
 
-2. Создать экземпляр службы Watson Studio. Для этого откройте список ресурсов https://cloud.ibm.com/resources. Если Watson Studio отсутствует в Вашем списке "Services and software", то создайте новую слуюбу через кнопку "Create resource". При этом можно воспользоваться поиском службы и выбрать бесплатный тарифный план "Lite".
+2. Создать экземпляр службы Watson Studio. Для этого откройте список ресурсов https://cloud.ibm.com/resources. Если Watson Studio отсутствует в Вашем списке "Services and software", то создайте новую службу через кнопку "Create resource". При этом можно воспользоваться поиском службы и выбрать бесплатный тарифный план "Lite".
 
 3. Создать экземпляр службы Watson Machine Learning. Действия аналогичны предыдущему пункту с созданием службы Watson Studio.
 
@@ -25,9 +25,10 @@
 1.1. Откройте Watson Studio. Это можно сделать из общего списка сервисов (https://cloud.ibm.com/resources) или через специализированную ссылку: https://dataplatform.cloud.ibm.com/
 
 1.2. Создайте аналитический проект в Watson Studio. 
-Это можно сделать из основной страницы посредством нажатия кнопки "Создать проект". Или же использовать эту же кнопку из общего списка проектов ("Просмотреть все проекты"). Нам достаточно создание "пустого" проекта.
-![Create project](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/create_ws_project.png)
+Это можно сделать из основной страницы посредством нажатия кнопки "Создать проект". Или же использовать эту же кнопку из общего списка проектов ("Просмотреть все проекты"). 
+   ![Create project](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/create_ws_project.png)
 
+Нам достаточно создание "пустого" проекта.
 ![Create project](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/create_ws_project_blank.png)
 
 ![Create project](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/create_ws_project_create.png)
@@ -38,7 +39,7 @@
 2.2. В созданном проекте Watson Studio для загрузки данных можно воспользоваться кнопкой "Add to project" ("Добавить в проект"), выбрать тип "Данные" и указать сохраненный файл.
 ![Create project](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/ws_project_assets.png)
 
-2.3. Найдите данные в списке активов проекта ("assets"). При желании Вы можете просмотреть содержимое таблицы и сделать её профилирование (закладка Профиль / Создать профиль). 
+2.3. Найдите загруженную таблицу с данными в списке активов проекта ("assets"). При желании Вы можете просмотреть содержимое таблицы и сделать её профилирование (закладка Профиль / Создать профиль). 
 ![Assets](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/ws_project_assets_table.png)
 
 ![Assets](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/ws_project_assets_rows.png)
