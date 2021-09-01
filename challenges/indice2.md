@@ -49,29 +49,45 @@
 ### Шаг 3: Построить и обучить модель
 * 3.1 Укажите основные сведения о модели
 На странице Assets ("Активы") вашего проекта в Watson Studio нажмите "Add to project" ("Добавить в проект") и выберите "AutoAI Experiment".
+![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_1.png)
+
 На открывшейся странице заполните основные поля:
    - Укажите имя и необязательное описание для вашей новой модели.
+![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_2.png)
+
    - Убедитесь, что экземпляр службы IBM Watson Machine Learning связан с вашим проектом. Если этого нет, то воспользуйтесь режимом "Свяжите экземпляр службы машинного обучения", выберите из списка службу  Watson Machine Learning и свяжите с ней проект. 
+![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_3.png)
+
    - Нажмите "Создать".
+![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_4.png)
 
 * 3.2 Добавить источники данных. Рекомендуем использовать уже загруженные данные в составе проекта (режим "Выберите из проекта"). Если данные ранее не были загружены, то можно воспользоваться кнопкой "Обзор" и выбрать новый файл (csv).
+![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_5.png)
+![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_6.png)
 
 * 3.3 Укажите прогнозируемый столбец
 Ответьте на вопрос "Что вы хотите предсказать?". В нашем случае нужно выбрать столбец «CLASS».
+![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_7.png)
 
 * 3.4 Запустите обучение модели
 Нажмите Запустить эксперимент (Run experiment). По мере обучения модели вы увидите инфографику, показывающую процесс построения конвейера (пайплайна).
+![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_8.png)
 
-Список алгоритмов или оценок, доступных для каждого метода машинного обучения в AutoAI, см.: [Детали внедрения AutoAI](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-details.html?audience=wdp)
+Список алгоритмов или оценок, доступных для каждого метода машинного обучения в AutoAI, см.: 
+[Детали внедрения AutoAI](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-details.html?audience=wdp)
 
-![autoai_bank_sample_pipeline_build](https://github.com/vperrinfr/network_intrusion/blob/master/images/autoai_bank_sample_pipeline_build2.png)
+![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_9.png)
+
+![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_13.png)
 
 * 3.4 Выбор конвейера
 После завершения создания конвейера вы можете просмотреть и сравнить полученные модели в таблице (leaderboard).
+![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_12.png)
+![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_10.png)
 
-![leaderboard](https://github.com/vperrinfr/network_intrusion/blob/master/images/autoai_bank_sample_leaderboard2.png)
 
 Выберите «Сохранить модель» ("Save model") в меню действий для модели с рангом 1. При этом модель будет сохранена как актив в вашем проекте.
+![AutoAI](https://github.com/ibmworkshops/merlion-itsummit-2021/blob/main/public/add_autoai_11.png)
 
 ### Шаг 4: Опубликовать обученную модель
 Прежде чем вы сможете использовать свою обученную модель для прогнозирования новых данных, вы должны опубликовать модель в пространстве внедрения (deployments space).
