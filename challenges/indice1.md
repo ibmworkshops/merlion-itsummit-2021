@@ -2,6 +2,6 @@
 
 Операционная модель
 
-![autoAI](https://github.com/vperrinfr/network_intrusion/blob/master/images/autoai_overview2.png)
+![autoAI](images/autoai_overview2.png)
 
 IBM AutoAI автоматизирует большую часть процесса построения модели машинного обучения.
